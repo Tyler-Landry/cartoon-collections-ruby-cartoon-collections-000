@@ -29,4 +29,6 @@ end
 
 def words_with_b(words)
   words.select do |x|
-    
+    x.start_with?("b")
+  end
+end 
