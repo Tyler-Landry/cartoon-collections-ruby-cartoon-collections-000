@@ -2,7 +2,10 @@ dwarves = ["Doc","Dopey","Bashful","Grumpy"]
 
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf,idx|
+    x = (dwarves.length / 2)
+    if idx < x 
     puts "#{idx+1} #{dwarf}"
+    end
   end
 end
 
