@@ -28,4 +28,4 @@ def find_the_cheese(food)
 end
 
 def words_with_b(words)
-  words
+  words.
